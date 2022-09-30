@@ -15,6 +15,7 @@ def count_lines(directory, extension): # the directory and the file path
 
     total = sum(lines_total)
     avg = total / num_files
+    format_float = "{:.2f}".format(avg)
 
     print("\nNumber of files found: ", num_files)
     print("Total number of lines: ", total)
